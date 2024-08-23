@@ -1,0 +1,49 @@
+﻿<Page x:Class="Котельня.Pages.PageTreatyPrepaymentEdit"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Котельня.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageTreatyPrepaymentEdit">
+
+    <Grid>
+        <Border Style="{StaticResource WhiteBorder}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400">
+            
+            <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                <TextBlock Text="Договорная Предоплата " Style="{StaticResource workedittop}" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Котельня;component/Resources/icons8-cash-60.png" Width="64" Height="64" VerticalAlignment="Top"/>
+                        <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                            <TextBlock Text="Сумма" Style="{StaticResource workeditnorm}"/>
+                            <TextBox Text="{Binding value}" Width="100" Margin="0,10,0,0" PreviewTextInput="NumberValidationTextBox"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Source="/Котельня;component/Resources/icons8-percentage-50.png" Width="64" Height="64"/>
+                        <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                            <TextBlock Text="%" Style="{StaticResource workeditnorm}" />
+                            <TextBox Text="{Binding C_}" x:Name="Valuetb" Width="30" Margin="0,10,0,0" PreviewTextInput="NumberValidationTextBox"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Top" >
+                        <Image Source="/Котельня;component/Resources/icons8-playlist-80.png" Width="64" Height="64" VerticalAlignment="Top"/>
+                        <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                            <TextBlock Text="Описание" Style="{StaticResource workeditnorm}"/>
+                            <TextBox Text="{Binding description}" Width="280" TextWrapping="Wrap" Margin="0,10,0,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,15">
+                    <Button Content="Отмена" Width="60" Height="40" Style="{StaticResource btn_exit_corners}" Click="btnBack_Click"/>
+                    <Button Content="Подтвердить" Width="100" Height="40" Style="{StaticResource btnMenu_bezuglov}" Click="btnSave_Click" Margin="40,0,0,0"/>
+                </StackPanel>
+                
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

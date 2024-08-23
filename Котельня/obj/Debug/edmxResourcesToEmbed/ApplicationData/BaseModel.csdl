@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KursavayaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="KursavayaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Order" EntityType="KursavayaModel.Order" />
+    <EntitySet Name="Order_composition" EntityType="KursavayaModel.Order_composition" />
+    <EntitySet Name="Role" EntityType="KursavayaModel.Role" />
+    <EntitySet Name="Treaty" EntityType="KursavayaModel.Treaty" />
+    <EntitySet Name="Treaty_prepayment" EntityType="KursavayaModel.Treaty_prepayment" />
+    <EntitySet Name="Users" EntityType="KursavayaModel.Users" />
+    <EntitySet Name="Work" EntityType="KursavayaModel.Work" />
+    <EntitySet Name="WorkType" EntityType="KursavayaModel.WorkType" />
+    <AssociationSet Name="FK_Order_composition_Order" Association="KursavayaModel.FK_Order_composition_Order">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="Order_composition" EntitySet="Order_composition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_Users" Association="KursavayaModel.FK_Order_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_composition_WorkType" Association="KursavayaModel.FK_Order_composition_WorkType">
+      <End Role="WorkType" EntitySet="WorkType" />
+      <End Role="Order_composition" EntitySet="Order_composition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Role" Association="KursavayaModel.FK_Users_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teaty_Client" Association="KursavayaModel.FK_Teaty_Client">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Treaty" EntitySet="Treaty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Treaty_Treaty_prepayment" Association="KursavayaModel.FK_Treaty_Treaty_prepayment">
+      <End Role="Treaty_prepayment" EntitySet="Treaty_prepayment" />
+      <End Role="Treaty" EntitySet="Treaty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkType_Work" Association="KursavayaModel.FK_WorkType_Work">
+      <End Role="Work" EntitySet="Work" />
+      <End Role="WorkType" EntitySet="WorkType" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_id" Type="Int32" Nullable="false" />
+    <Property Name="Order_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Arrival_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Price" Type="Single" Nullable="false" />
+    <NavigationProperty Name="Order_composition" Relationship="KursavayaModel.FK_Order_composition_Order" FromRole="Order" ToRole="Order_composition" />
+    <NavigationProperty Name="Users" Relationship="KursavayaModel.FK_Order_Users" FromRole="Order" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Order_composition">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Order_id" Type="Int32" Nullable="false" />
+    <Property Name="WorkType_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="KursavayaModel.FK_Order_composition_Order" FromRole="Order_composition" ToRole="Order" />
+    <NavigationProperty Name="WorkType" Relationship="KursavayaModel.FK_Order_composition_WorkType" FromRole="Order_composition" ToRole="WorkType" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="KursavayaModel.FK_Users_Role" FromRole="Role" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Treaty">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_id" Type="Int32" Nullable="false" />
+    <Property Name="First_Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Last_Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Prepayment_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="KursavayaModel.FK_Teaty_Client" FromRole="Treaty" ToRole="Users" />
+    <NavigationProperty Name="Treaty_prepayment" Relationship="KursavayaModel.FK_Treaty_Treaty_prepayment" FromRole="Treaty" ToRole="Treaty_prepayment" />
+  </EntityType>
+  <EntityType Name="Treaty_prepayment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="value" Type="Single" Nullable="false" />
+    <Property Name="C_" Type="Int32" Nullable="false" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Treaty" Relationship="KursavayaModel.FK_Treaty_Treaty_prepayment" FromRole="Treaty_prepayment" ToRole="Treaty" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Role_id" Type="Int32" Nullable="false" />
+    <Property Name="FIO" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="phone_number" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="login" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ImageName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Order" Relationship="KursavayaModel.FK_Order_Users" FromRole="Users" ToRole="Order" />
+    <NavigationProperty Name="Role" Relationship="KursavayaModel.FK_Users_Role" FromRole="Users" ToRole="Role" />
+    <NavigationProperty Name="Treaty" Relationship="KursavayaModel.FK_Teaty_Client" FromRole="Users" ToRole="Treaty" />
+  </EntityType>
+  <EntityType Name="Work">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="WorkType" Relationship="KursavayaModel.FK_WorkType_Work" FromRole="Work" ToRole="WorkType" />
+  </EntityType>
+  <EntityType Name="WorkType">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Work_id" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Single" Nullable="false" />
+    <NavigationProperty Name="Order_composition" Relationship="KursavayaModel.FK_Order_composition_WorkType" FromRole="WorkType" ToRole="Order_composition" />
+    <NavigationProperty Name="Work" Relationship="KursavayaModel.FK_WorkType_Work" FromRole="WorkType" ToRole="Work" />
+  </EntityType>
+  <Association Name="FK_Order_composition_Order">
+    <End Type="KursavayaModel.Order" Role="Order" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="KursavayaModel.Order_composition" Role="Order_composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Order_composition">
+        <PropertyRef Name="Order_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_Users">
+    <End Type="KursavayaModel.Users" Role="Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="KursavayaModel.Order" Role="Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="User_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_composition_WorkType">
+    <End Type="KursavayaModel.WorkType" Role="WorkType" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="KursavayaModel.Order_composition" Role="Order_composition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkType">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Order_composition">
+        <PropertyRef Name="WorkType_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Role">
+    <End Type="KursavayaModel.Role" Role="Role" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="KursavayaModel.Users" Role="Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Role_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teaty_Client">
+    <End Type="KursavayaModel.Users" Role="Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="KursavayaModel.Treaty" Role="Treaty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Treaty">
+        <PropertyRef Name="User_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Treaty_Treaty_prepayment">
+    <End Type="KursavayaModel.Treaty_prepayment" Role="Treaty_prepayment" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="KursavayaModel.Treaty" Role="Treaty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Treaty_prepayment">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Treaty">
+        <PropertyRef Name="Prepayment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkType_Work">
+    <End Type="KursavayaModel.Work" Role="Work" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="KursavayaModel.WorkType" Role="WorkType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Work">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="WorkType">
+        <PropertyRef Name="Work_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

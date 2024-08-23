@@ -1,0 +1,39 @@
+﻿<Page x:Class="Котельня.Pages.PageCreateProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Котельня.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageCreateProfile">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Button  Click="btn_Back_Click"  Content="←" Width="50" VerticalAlignment="Top" Height="50" HorizontalAlignment="Left"/>
+            
+            
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    <Button Content="Выберете фото" Click="Button_Image_Click" Margin="0,40,0,72"/>
+                    
+                    <Label Content="Укажите ФИО *"/>
+                    <Label Content="Укажите адресс *" Margin="0,30,0,30"/>
+                    <Label Content="укажите номре тел. *"/>
+                    
+                </StackPanel>
+                
+                <StackPanel Orientation="Vertical">
+                    <Image Name="imageprofile" Height="100" Width="100" Source="/Котельня;component/Resources/Male-Avatar-1024x965.jpg" Stretch="Fill"/>
+                    <TextBox x:Name="txbFIO" Height="20" Width="200" Margin="0,40,0,30" Text="{Binding FIO}"/>
+                    <TextBox x:Name="txbadr" Height="20" Width="200" Text="{Binding address}"/>
+                    <TextBox x:Name="txbphone" Height="20" Width="200" Margin="0,40,0,0" Text="{Binding phone_number}"/>
+                </StackPanel>
+                 
+            </StackPanel>
+               
+            <Label Content=" * Поля обязательны к заполнению" FontWeight="Bold" Margin="0,15,0,0"/>
+            <Button Click="btn_save_Click" Content="Сохранить" Height="50"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,50 @@
+﻿<Page x:Class="Котельня.Pages.PageTypeWorkEdit"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Котельня.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageTypeWorkEdit">
+
+    <Grid>
+        <Border Style="{StaticResource WhiteBorder}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" >
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="ВИД РАБОТЫ" HorizontalAlignment="Center" Style="{StaticResource workedittop}" Margin="0,0,0,20"/>
+                
+                <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <Image Source="/Котельня;component/Resources/icons8-full-tool-storage-box-50.png" Width="64" Height="64" VerticalAlignment="Top"/>
+
+                        <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                            <TextBlock Text="Название работы" Style="{StaticResource workeditnorm}"/>
+                            <TextBox Width="300" Margin="0,5,0,0" Text="{Binding name}" TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Котельня;component/Resources/icons8-sheets-50.png" Width="64" Height="64"/>
+                        <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                            <TextBlock Text="Тип работы" Style="{StaticResource workeditnorm}" />
+                            <ComboBox  x:Name="cmbwork" SelectedItem="{Binding Work}" DisplayMemberPath="name" Margin="0,10,0,0" Width="120"/>
+                        </StackPanel>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Котельня;component/Resources/icons8-average-price-64.png" Width="64" Height="64"/>
+                        <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                            <TextBlock Text="Цена работы" Style="{StaticResource workeditnorm}" />
+                            <TextBox PreviewTextInput="NumberValidationTextBox" Text="{Binding Price}" Margin="0,10,0,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,15">
+                    <Button Content="Отмена" Click="btnBack_Click" Style="{StaticResource btn_exit_corners}" Height="40" Width="60" />
+                    <Button Content="Подтвердить" Click="btnSave_Click" Style="{StaticResource btnMenu_bezuglov}" Width="100" Margin="40,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

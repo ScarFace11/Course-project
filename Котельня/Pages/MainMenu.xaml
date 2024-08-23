@@ -1,0 +1,35 @@
+﻿<Page x:Class="Котельня.Pages.MainMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainMenu">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" Background="White">
+            <TextBlock Style="{StaticResource FAQ}" Text="Компания Kotelok - Ваш надежный партнер в мире систем отопления!"/>
+            
+            <Image Source="/Котельня;component/Resources/icons8-good-quality-50.png" Width="50" Height="50" HorizontalAlignment="Left" Margin="5,5,0,0"/>
+            <TextBlock Style="{StaticResource WrapText}" Margin="5,5,0,0" Text="МЫ предлагаем высококачественное обслуживание котлов отопления и профессиональный монтаж систем отопления под ключ. Наша команда состоит из опытных специалистов, которые постоянно совершенствуются и следят за последними тенденциями в области отопительных технологий."/>
+
+            <Image Source="/Котельня;component/Resources/icons8-guarantee-50.png" Width="50" Height="50" HorizontalAlignment="Left" Margin="5,5,0,0"/>
+            <TextBlock Style="{StaticResource WrapText}" Margin="5,5,0,0" Text="Мы гарантируем качественное выполнение всех работ в установленные сроки и по доступным ценам, а также предоставляем гарантию на все виды услуг. Наша компания имеет все необходимые сертификаты и лицензии на проведение работ по монтажу и обслуживанию отопительных систем, а также на продажу и установку котлов различных типов." />
+
+            <Image Source="/Котельня;component/Resources/icons8-innovation-80.png" Width="50" Height="50" HorizontalAlignment="Left" Margin="5,5,0,0"/>
+            <TextBlock Style="{StaticResource WrapText}" Text="Одним из наших преимуществ является индивидуальный подход к каждому клиенту, благодаря чему мы можем предложить оптимальное решение для каждого конкретного случая. Наши специалисты всегда готовы проконсультировать вас по любым вопросам, связанным с отоплением, и помочь выбрать наиболее подходящий котел или систему отопления." />
+
+
+
+            <TextBlock Style="{StaticResource FAQ}" Text="Почему стоит выбрать нас?"/>
+            <TextBlock Style="{StaticResource WrapText}" Text="1. Опыт работы на рынке отопления более 10 лет."/>
+            <TextBlock Style="{StaticResource WrapText}" Text="2. Профессиональный подход и ответственность за результат"/>
+            <TextBlock Style="{StaticResource WrapText}" Text="3. Гибкая система скидок для постоянных клиентов и партнеров."/>
+            <TextBlock Style="{StaticResource WrapText}" Text="4. Оперативное реагирование на аварийные ситуации."/>
+            <TextBlock Style="{StaticResource WrapText}" Text="5. Индивидуальный подход к каждому клиенту."/>
+
+        </StackPanel>
+    </Grid>
+</Page>

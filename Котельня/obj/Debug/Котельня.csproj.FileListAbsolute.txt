@@ -1,0 +1,486 @@
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\bin\Debug\Котельня.exe.config
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\bin\Debug\Котельня.exe
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\bin\Debug\Котельня.pdb
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\bin\Debug\EntityFramework.dll
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\bin\Debug\EntityFramework.SqlServer.dll
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\bin\Debug\EntityFramework.xml
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\bin\Debug\EntityFramework.SqlServer.xml
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\bin\Debug\ru\EntityFramework.resources.dll
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\MainWindow.g.cs
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\App.g.cs
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня_Content.g.cs
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня_MarkupCompile.cache
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня_MarkupCompile.lref
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\App.baml
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\MainWindow.baml
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня.g.resources
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня.Properties.Resources.resources
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня.csproj.GenerateResource.cache
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня.csproj.CoreCompileInputs.cache
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня.csproj.CopyComplete
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня.exe
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня.pdb
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\Profile.g.cs
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\PageCreateAccount.g.cs
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\PageCreateAccount.baml
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\Profile.baml
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\PageCreateProfile.g.cs
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\PageCreateProfile.baml
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\MainMenu.g.cs
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\MainMenu.baml
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Котельня.csproj.AssemblyReference.cache
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\PageLogin.g.cs
+E:\Сторожилов Егор\СтЕ - по отчёту\Котельня\Котельня\obj\Debug\Pages\PageLogin.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\Котельня.exe.config
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\Котельня.exe
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\Котельня.pdb
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня_Content.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.lref
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\App.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.g.resources
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.Properties.Resources.resources
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CopyComplete
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.exe
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.pdb
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageAdmProfileClientEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageAdmProfileClientEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrders.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrders.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\Котельня.exe.config
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\Котельня.exe
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\Котельня.pdb
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\EntityFramework.dll
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.dll
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\EntityFramework.xml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.xml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\bin\Debug\ru\EntityFramework.resources.dll
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.AssemblyReference.cache
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\MainWindow.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageAdmProfileClientEdit.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrders.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\App.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня_Content.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.cache
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.lref
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\App.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\MainWindow.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageAdmProfileClientEdit.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrders.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.g.resources
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.Properties.Resources.resources
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.GenerateResource.cache
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CoreCompileInputs.cache
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CopyComplete
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.exe
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Котельня.pdb
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.g.cs
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.baml
+E:\Сторожилов Егор\гайд на 2 части\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\bin\Debug\Котельня.exe.config
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\bin\Debug\Котельня.exe
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\bin\Debug\Котельня.pdb
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAdmProfileClientEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrders.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня_Content.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.lref
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\App.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAdmProfileClientEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrders.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня.g.resources
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня.Properties.Resources.resources
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CopyComplete
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня.exe
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня.pdb
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageMakingOrder.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageMakingOrder.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья после\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\bin\Debug\Котельня.exe.config
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\bin\Debug\Котельня.exe
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\bin\Debug\Котельня.pdb
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня_Content.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.lref
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\App.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня.g.resources
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня.Properties.Resources.resources
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CopyComplete
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня.exe
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня.pdb
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrdersListUser.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котелнья последняя\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrdersListUser.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\Котельня.exe.config
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\Котельня.exe
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\Котельня.pdb
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.dll
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.dll
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.xml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.xml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\ru\EntityFramework.resources.dll
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.AssemblyReference.cache
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\MainWindow.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrdersListUser.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\App.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня_Content.g.cs
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.cache
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.lref
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\App.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\MainWindow.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrdersListUser.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.baml
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.g.resources
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.Properties.Resources.resources
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.GenerateResource.cache
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CoreCompileInputs.cache
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CopyComplete
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.exe
+E:\Сторожилов Егор\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.pdb
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\Котельня.exe.config
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\Котельня.exe
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\Котельня.pdb
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrdersListUser.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня_Content.g.cs
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.lref
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\App.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrdersListUser.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.baml
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.g.resources
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.Properties.Resources.resources
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CopyComplete
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.exe
+C:\Users\user\Desktop\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.pdb
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\Котельня.exe.config
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\Котельня.exe
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\Котельня.pdb
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.dll
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.dll
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.xml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\EntityFramework.SqlServer.xml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\bin\Debug\ru\EntityFramework.resources.dll
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.AssemblyReference.cache
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\MainWindow.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\MainMenu.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrdersListUser.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\App.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня_Content.g.cs
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.cache
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня_MarkupCompile.lref
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\App.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\MainWindow.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddRole.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAddUserOrder.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllOrders.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageAllUsers.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateAccount.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageCreateProfile.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageLogin.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOformelenieZakaza.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrdersListUser.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageOrderUserInfo.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageRoles.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTeatys.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyAdd.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyForUsers.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentEdit.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyPrepaymentList.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTreatyUserInfo.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWork.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageTypeWorkEdit.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWork.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\PageWorkEdit.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Pages\Profile.baml
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.g.resources
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.Properties.Resources.resources
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.GenerateResource.cache
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CoreCompileInputs.cache
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.csproj.CopyComplete
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.exe
+D:\Дипломная работа 24 год\Курсач\гайд на 2 части\котл24.11\Котельня домашняя\Котельня\obj\Debug\Котельня.pdb

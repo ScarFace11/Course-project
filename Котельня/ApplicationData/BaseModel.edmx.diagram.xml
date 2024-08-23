@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d394a8e874d147f3b001aba1b3dfe181" Name="Diagram1">
+        <EntityTypeShape EntityType="Обслуживание_котлов_Сторожилов_ЕгорModel.Client" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Обслуживание_котлов_Сторожилов_ЕгорModel.Order" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Обслуживание_котлов_Сторожилов_ЕгорModel.Treaty" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Обслуживание_котлов_Сторожилов_ЕгорModel.TypeWork" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Обслуживание_котлов_Сторожилов_ЕгорModel.Work" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="Обслуживание_котлов_Сторожилов_ЕгорModel.FK_Order_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="Обслуживание_котлов_Сторожилов_ЕгорModel.FK_Treaty_Treaty" ManuallyRouted="false" />
+        <AssociationConnector Association="Обслуживание_котлов_Сторожилов_ЕгорModel.FK_Order_TypeWork" ManuallyRouted="false" />
+        <AssociationConnector Association="Обслуживание_котлов_Сторожилов_ЕгорModel.FK_TypeWork_Work" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

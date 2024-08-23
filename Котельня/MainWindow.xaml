@@ -1,0 +1,91 @@
+﻿<Window x:Class="Котельня.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Котельня"
+        mc:Ignorable="d"
+        Icon="Resources/icons8-gas-50.png"
+        Title="Обслуживание котлов" Height="650" Width="800" WindowStartupLocation="CenterScreen" IsVisibleChanged="Page_IsVisibleChanged" IsEnabledChanged="Page_IsVisibleChanged">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF6B66CB" Offset="0.829"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="500*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+            
+        <StackPanel Grid.Column="0" Grid.Row="0"  Background="#FFA03E3E">
+            <Image x:Name="PictureProfile" MouseDown="aPicture_MouseDown"  Source="Resources/icons8-client-80.png" Stretch="Fill"/>
+            <!--<Label x:Name="RoleProfile" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Гость"/> -->
+        </StackPanel>
+
+        <Image Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Margin="20,0,0,0" Source="Resources/Pasted-20231110-161012_pixian_ai.png" />
+
+        <Border Background="#FFA03E3E" Grid.Row="1" Grid.Column="0" >
+            <TextBlock x:Name="lblnameROle" Style="{StaticResource main}"  HorizontalAlignment="Center" VerticalAlignment="Center"  Text="Гость"/>
+        </Border>
+
+        <StackPanel  Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="1" Background="#FFA03E3E">
+            <StackPanel x:Name="SP_Order" Visibility="Collapsed" Orientation="Vertical" VerticalAlignment="Top" Width="70" Height="90">
+                <Image x:Name="PictureOrders" MouseDown="Order_MouseDown"  Height="50" Width="50" Source="Resources/icons8-order-64.png" Stretch="Fill"/>
+                <TextBlock Style="{StaticResource main}" HorizontalAlignment="Center"  Text="Заказы"/>
+            </StackPanel>
+            
+            <StackPanel  Orientation="Vertical" VerticalAlignment="Top" Width="70" Height="90">
+                <Image x:Name="PictureTypeWork" MouseDown="TypeWorkPicture_MouseDown"  Height="50" Width="50" Source="Resources/icons8-list-64.png" Stretch="Fill"/>
+                <TextBlock Style="{StaticResource main}" HorizontalAlignment="Center"  Text="виды работ"/>
+            </StackPanel>
+
+            <StackPanel x:Name="SP_Clients" Visibility="Collapsed" Orientation="Vertical" VerticalAlignment="Top" Width="70" Height="90" >
+                <Image x:Name="PictureClients" MouseDown="UsersPicture_MouseDown"  Height="50" Width="50" Source="Resources/icons8-crowd-50.png" Stretch="Fill"/>
+                <TextBlock Style="{StaticResource main}" HorizontalAlignment="Center"  Text="Клиенты"/>
+            </StackPanel>
+
+            <StackPanel x:Name="SP_Treaty" Visibility="Collapsed" Orientation="Vertical" VerticalAlignment="Top" Width="70" Height="90">
+                <Image x:Name="PictureTeaty" MouseDown="TreatyPicture_MouseDown"  Height="50" Width="50" Source="Resources/icons8-purchase-order-64.png" Stretch="Fill"/>
+                <TextBlock Style="{StaticResource main}" HorizontalAlignment="Center"  Text="Договор"/>
+            </StackPanel>
+            
+            
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0"  Orientation="Vertical" VerticalAlignment="Bottom" Width="70" Height="90">
+            <Image x:Name="PictureFAQ" MouseDown="FAQPicture_MouseDown"  Height="50" Width="50" Source="Resources/icons8-questions-50.png" Stretch="Fill"/>
+
+            <TextBlock Style="{StaticResource main}" HorizontalAlignment="Center"  Text="FAQ"/>
+        </StackPanel>
+
+        <StackPanel  Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+            <Button x:Name="btnTypeWork" Visibility="Collapsed" Content="Виды работ" Style="{StaticResource btnMainWindow}" Width="100" Click="Btn_Work_Click" Margin="10,0,0,0"/>
+            <Button x:Name="btnCategoryWork" Visibility="Collapsed" Content="Категория работ" Style="{StaticResource btnMainWindow}" Click="Btn_WorkCategory_Click" Margin="10,0,0,0"/>
+            <Button x:Name="btnUserselect" Visibility="Collapsed" Content="Клиенты" Style="{StaticResource btnMainWindow}" Click="Btn_User_Click" Margin="10,0,0,0"/>
+            <Button x:Name="btnRoleselect" Visibility="Collapsed" Content="Роли" Style="{StaticResource btnMainWindow}" Width="70" Click="Btn_Role_Click" Margin="10,0,0,0"/>
+
+            <Button x:Name="btnAllTreaty" Visibility="Collapsed" Width="100" Content="Все договора" Style="{StaticResource btnMainWindow}" Click="Btn_Treaty_Click" Margin="10,0,0,0"/>
+            <Button x:Name="btnTreatyPrepayment" Visibility="Collapsed" Width="150" Content="Договораня скидка" Style="{StaticResource btnMainWindow}" Click="Btn_Treaty_Prepayment_Click" Margin="10,0,0,0"/>
+        </StackPanel>
+
+        <Border Grid.Column="1" Grid.Row="2">
+            <Frame NavigationUIVisibility="Hidden"  x:Name="frmain" Navigating="frmain_Navigating" Navigated="MainFrame_Navigated"/>
+        </Border>
+
+        <Border Grid.Column="0" Grid.Row="3" Background="#FFA03E3E"/>
+        
+        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Label Content="Контакты:"/>
+            <Label Content="email@gmail.ru"/>
+            <Label Content="+7 (999)-999-99-99"/>
+        </StackPanel>
+    </Grid>
+</Window>

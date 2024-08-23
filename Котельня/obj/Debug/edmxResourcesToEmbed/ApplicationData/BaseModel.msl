@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище KursavayaModelContainer" CdmEntityContainer="KursavayaEntities">
+    <EntitySetMapping Name="Order">
+      <EntityTypeMapping TypeName="KursavayaModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Arrival_date" ColumnName="Arrival_date" />
+          <ScalarProperty Name="Order_date" ColumnName="Order_date" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_composition">
+      <EntityTypeMapping TypeName="KursavayaModel.Order_composition">
+        <MappingFragment StoreEntitySet="Order_composition">
+          <ScalarProperty Name="WorkType_id" ColumnName="WorkType_id" />
+          <ScalarProperty Name="Order_id" ColumnName="Order_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="KursavayaModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Treaty">
+      <EntityTypeMapping TypeName="KursavayaModel.Treaty">
+        <MappingFragment StoreEntitySet="Treaty">
+          <ScalarProperty Name="Prepayment_id" ColumnName="Prepayment_id" />
+          <ScalarProperty Name="Last_Date" ColumnName="Last_Date" />
+          <ScalarProperty Name="First_Date" ColumnName="First_Date" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Treaty_prepayment">
+      <EntityTypeMapping TypeName="KursavayaModel.Treaty_prepayment">
+        <MappingFragment StoreEntitySet="Treaty_prepayment">
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="C_" ColumnName="%" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="KursavayaModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="Role_id" ColumnName="Role_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Work">
+      <EntityTypeMapping TypeName="KursavayaModel.Work">
+        <MappingFragment StoreEntitySet="Work">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkType">
+      <EntityTypeMapping TypeName="KursavayaModel.WorkType">
+        <MappingFragment StoreEntitySet="WorkType">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Work_id" ColumnName="Work_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

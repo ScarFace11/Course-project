@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище KursavayaModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User_id" Type="int" Nullable="false" />
+          <Property Name="Order_date" Type="date" Nullable="false" />
+          <Property Name="Arrival_date" Type="date" Nullable="false" />
+          <Property Name="Price" Type="real" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Order_composition">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Order_id" Type="int" Nullable="false" />
+          <Property Name="WorkType_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Treaty">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User_id" Type="int" Nullable="false" />
+          <Property Name="First_Date" Type="date" Nullable="false" />
+          <Property Name="Last_Date" Type="date" Nullable="false" />
+          <Property Name="Prepayment_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Treaty_prepayment">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="value" Type="real" Nullable="false" />
+          <Property Name="%" Type="int" Nullable="false" />
+          <Property Name="description" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Role_id" Type="int" Nullable="false" />
+          <Property Name="FIO" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="address" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="phone_number" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="login" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="password" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="ImageName" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Work">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WorkType">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Work_id" Type="int" Nullable="false" />
+          <Property Name="Price" Type="real" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Order_composition_Order">
+          <End Role="Order" Type="Self.Order" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Order_composition" Type="Self.Order_composition" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Order">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order_composition">
+              <PropertyRef Name="Order_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Order_composition_WorkType">
+          <End Role="WorkType" Type="Self.WorkType" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Order_composition" Type="Self.Order_composition" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WorkType">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order_composition">
+              <PropertyRef Name="WorkType_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Order_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Order" Type="Self.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order">
+              <PropertyRef Name="User_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teaty_Client">
+          <End Role="Users" Type="Self.Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Treaty" Type="Self.Treaty" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Treaty">
+              <PropertyRef Name="User_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Treaty_Treaty_prepayment">
+          <End Role="Treaty_prepayment" Type="Self.Treaty_prepayment" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Treaty" Type="Self.Treaty" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Treaty_prepayment">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Treaty">
+              <PropertyRef Name="Prepayment_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Role">
+          <End Role="Role" Type="Self.Role" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Users" Type="Self.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="Role_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WorkType_Work">
+          <End Role="Work" Type="Self.Work" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="WorkType" Type="Self.WorkType" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Work">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="WorkType">
+              <PropertyRef Name="Work_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище KursavayaModelContainer">
+          <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Order_composition" EntityType="Self.Order_composition" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Treaty" EntityType="Self.Treaty" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Treaty_prepayment" EntityType="Self.Treaty_prepayment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Work" EntityType="Self.Work" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WorkType" EntityType="Self.WorkType" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Order_composition_Order" Association="Self.FK_Order_composition_Order">
+            <End Role="Order" EntitySet="Order" />
+            <End Role="Order_composition" EntitySet="Order_composition" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Order_composition_WorkType" Association="Self.FK_Order_composition_WorkType">
+            <End Role="WorkType" EntitySet="WorkType" />
+            <End Role="Order_composition" EntitySet="Order_composition" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Order_Users" Association="Self.FK_Order_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Order" EntitySet="Order" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teaty_Client" Association="Self.FK_Teaty_Client">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Treaty" EntitySet="Treaty" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Treaty_Treaty_prepayment" Association="Self.FK_Treaty_Treaty_prepayment">
+            <End Role="Treaty_prepayment" EntitySet="Treaty_prepayment" />
+            <End Role="Treaty" EntitySet="Treaty" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Role" Association="Self.FK_Users_Role">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WorkType_Work" Association="Self.FK_WorkType_Work">
+            <End Role="Work" EntitySet="Work" />
+            <End Role="WorkType" EntitySet="WorkType" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="KursavayaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="KursavayaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Order" EntityType="KursavayaModel.Order" />
+          <EntitySet Name="Order_composition" EntityType="KursavayaModel.Order_composition" />
+          <EntitySet Name="Role" EntityType="KursavayaModel.Role" />
+          <EntitySet Name="Treaty" EntityType="KursavayaModel.Treaty" />
+          <EntitySet Name="Treaty_prepayment" EntityType="KursavayaModel.Treaty_prepayment" />
+          <EntitySet Name="Users" EntityType="KursavayaModel.Users" />
+          <EntitySet Name="Work" EntityType="KursavayaModel.Work" />
+          <EntitySet Name="WorkType" EntityType="KursavayaModel.WorkType" />
+          <AssociationSet Name="FK_Order_composition_Order" Association="KursavayaModel.FK_Order_composition_Order">
+            <End Role="Order" EntitySet="Order" />
+            <End Role="Order_composition" EntitySet="Order_composition" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Order_Users" Association="KursavayaModel.FK_Order_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Order" EntitySet="Order" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Order_composition_WorkType" Association="KursavayaModel.FK_Order_composition_WorkType">
+            <End Role="WorkType" EntitySet="WorkType" />
+            <End Role="Order_composition" EntitySet="Order_composition" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Role" Association="KursavayaModel.FK_Users_Role">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teaty_Client" Association="KursavayaModel.FK_Teaty_Client">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Treaty" EntitySet="Treaty" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Treaty_Treaty_prepayment" Association="KursavayaModel.FK_Treaty_Treaty_prepayment">
+            <End Role="Treaty_prepayment" EntitySet="Treaty_prepayment" />
+            <End Role="Treaty" EntitySet="Treaty" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WorkType_Work" Association="KursavayaModel.FK_WorkType_Work">
+            <End Role="Work" EntitySet="Work" />
+            <End Role="WorkType" EntitySet="WorkType" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User_id" Type="Int32" Nullable="false" />
+          <Property Name="Order_date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Arrival_date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Price" Type="Single" Nullable="false" />
+          <NavigationProperty Name="Order_composition" Relationship="KursavayaModel.FK_Order_composition_Order" FromRole="Order" ToRole="Order_composition" />
+          <NavigationProperty Name="Users" Relationship="KursavayaModel.FK_Order_Users" FromRole="Order" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Order_composition">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Order_id" Type="Int32" Nullable="false" />
+          <Property Name="WorkType_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Order" Relationship="KursavayaModel.FK_Order_composition_Order" FromRole="Order_composition" ToRole="Order" />
+          <NavigationProperty Name="WorkType" Relationship="KursavayaModel.FK_Order_composition_WorkType" FromRole="Order_composition" ToRole="WorkType" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Users" Relationship="KursavayaModel.FK_Users_Role" FromRole="Role" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Treaty">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User_id" Type="Int32" Nullable="false" />
+          <Property Name="First_Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Last_Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Prepayment_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Users" Relationship="KursavayaModel.FK_Teaty_Client" FromRole="Treaty" ToRole="Users" />
+          <NavigationProperty Name="Treaty_prepayment" Relationship="KursavayaModel.FK_Treaty_Treaty_prepayment" FromRole="Treaty" ToRole="Treaty_prepayment" />
+        </EntityType>
+        <EntityType Name="Treaty_prepayment">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="value" Type="Single" Nullable="false" />
+          <Property Name="C_" Type="Int32" Nullable="false" />
+          <Property Name="description" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Treaty" Relationship="KursavayaModel.FK_Treaty_Treaty_prepayment" FromRole="Treaty_prepayment" ToRole="Treaty" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Role_id" Type="Int32" Nullable="false" />
+          <Property Name="FIO" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="address" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="phone_number" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="login" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ImageName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Order" Relationship="KursavayaModel.FK_Order_Users" FromRole="Users" ToRole="Order" />
+          <NavigationProperty Name="Role" Relationship="KursavayaModel.FK_Users_Role" FromRole="Users" ToRole="Role" />
+          <NavigationProperty Name="Treaty" Relationship="KursavayaModel.FK_Teaty_Client" FromRole="Users" ToRole="Treaty" />
+        </EntityType>
+        <EntityType Name="Work">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="WorkType" Relationship="KursavayaModel.FK_WorkType_Work" FromRole="Work" ToRole="WorkType" />
+        </EntityType>
+        <EntityType Name="WorkType">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Work_id" Type="Int32" Nullable="false" />
+          <Property Name="Price" Type="Single" Nullable="false" />
+          <NavigationProperty Name="Order_composition" Relationship="KursavayaModel.FK_Order_composition_WorkType" FromRole="WorkType" ToRole="Order_composition" />
+          <NavigationProperty Name="Work" Relationship="KursavayaModel.FK_WorkType_Work" FromRole="WorkType" ToRole="Work" />
+        </EntityType>
+        <Association Name="FK_Order_composition_Order">
+          <End Type="KursavayaModel.Order" Role="Order" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="KursavayaModel.Order_composition" Role="Order_composition" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Order">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order_composition">
+              <PropertyRef Name="Order_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Order_Users">
+          <End Type="KursavayaModel.Users" Role="Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="KursavayaModel.Order" Role="Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order">
+              <PropertyRef Name="User_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Order_composition_WorkType">
+          <End Type="KursavayaModel.WorkType" Role="WorkType" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="KursavayaModel.Order_composition" Role="Order_composition" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WorkType">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Order_composition">
+              <PropertyRef Name="WorkType_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Role">
+          <End Type="KursavayaModel.Role" Role="Role" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="KursavayaModel.Users" Role="Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="Role_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teaty_Client">
+          <End Type="KursavayaModel.Users" Role="Users" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="KursavayaModel.Treaty" Role="Treaty" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Treaty">
+              <PropertyRef Name="User_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Treaty_Treaty_prepayment">
+          <End Type="KursavayaModel.Treaty_prepayment" Role="Treaty_prepayment" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="KursavayaModel.Treaty" Role="Treaty" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Treaty_prepayment">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="Treaty">
+              <PropertyRef Name="Prepayment_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WorkType_Work">
+          <End Type="KursavayaModel.Work" Role="Work" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="KursavayaModel.WorkType" Role="WorkType" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Work">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="WorkType">
+              <PropertyRef Name="Work_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище KursavayaModelContainer" CdmEntityContainer="KursavayaEntities">
+          <EntitySetMapping Name="Order">
+            <EntityTypeMapping TypeName="KursavayaModel.Order">
+              <MappingFragment StoreEntitySet="Order">
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Arrival_date" ColumnName="Arrival_date" />
+                <ScalarProperty Name="Order_date" ColumnName="Order_date" />
+                <ScalarProperty Name="User_id" ColumnName="User_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Order_composition">
+            <EntityTypeMapping TypeName="KursavayaModel.Order_composition">
+              <MappingFragment StoreEntitySet="Order_composition">
+                <ScalarProperty Name="WorkType_id" ColumnName="WorkType_id" />
+                <ScalarProperty Name="Order_id" ColumnName="Order_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Role">
+            <EntityTypeMapping TypeName="KursavayaModel.Role">
+              <MappingFragment StoreEntitySet="Role">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Treaty">
+            <EntityTypeMapping TypeName="KursavayaModel.Treaty">
+              <MappingFragment StoreEntitySet="Treaty">
+                <ScalarProperty Name="Prepayment_id" ColumnName="Prepayment_id" />
+                <ScalarProperty Name="Last_Date" ColumnName="Last_Date" />
+                <ScalarProperty Name="First_Date" ColumnName="First_Date" />
+                <ScalarProperty Name="User_id" ColumnName="User_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Treaty_prepayment">
+            <EntityTypeMapping TypeName="KursavayaModel.Treaty_prepayment">
+              <MappingFragment StoreEntitySet="Treaty_prepayment">
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="C_" ColumnName="%" />
+                <ScalarProperty Name="value" ColumnName="value" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="KursavayaModel.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="login" ColumnName="login" />
+                <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="FIO" ColumnName="FIO" />
+                <ScalarProperty Name="Role_id" ColumnName="Role_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Work">
+            <EntityTypeMapping TypeName="KursavayaModel.Work">
+              <MappingFragment StoreEntitySet="Work">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WorkType">
+            <EntityTypeMapping TypeName="KursavayaModel.WorkType">
+              <MappingFragment StoreEntitySet="WorkType">
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Work_id" ColumnName="Work_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

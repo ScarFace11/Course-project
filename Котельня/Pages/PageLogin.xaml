@@ -1,0 +1,38 @@
+﻿<Page x:Class="Котельня.Pages.PageLogin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Котельня.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageLogin" IsVisibleChanged="Page_IsVisibleChanged">
+
+    <Grid>
+        <Border Style="{StaticResource WhiteBorder}" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="200">
+            <StackPanel Orientation="Vertical">
+
+                <TextBlock Text="АВТОРИЗАЦИЯ" Style="{StaticResource Login}" HorizontalAlignment="Center" Margin="0,20,0,30"/>
+
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Resources/key.png" Width="20" Height="20" Stretch="Fill"/>
+                        <TextBox Text="Логин..."  x:Name="txbLogin" Margin="10,0,0,0" Width="160" GotFocus="TextBox_GotFocus" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                        <Image  Width="20" Height="20" Stretch="Fill" Source="/Котельня;component/Resources/seguro1.png"/>
+                        <PasswordBox x:Name="psbPassword" Password="Пароль"  Margin="10,0,0,0" Width="160" GotFocus="psbPassword_GotFocus"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal"  Margin="5,10,0,0">
+                        <Button Click="btnToComeIn_Click" Style="{StaticResource btnreg}"  x:Name="btnToComeIn" Content="Войти" Margin="0,0,20,0" />
+                        <Button Click="btnReg" Style="{StaticResource btnreg}"  x:Name="btnToReg" Content="зарегестрироваться" Margin="0,0,0,0" />
+                    </StackPanel>
+                </StackPanel>
+
+
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Page>

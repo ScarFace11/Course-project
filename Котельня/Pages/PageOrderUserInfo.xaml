@@ -1,0 +1,28 @@
+﻿<Page x:Class="Котельня.Pages.PageOrderUserInfo"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Котельня.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageOrderUserInfo">
+
+    <Grid>
+        <DataGrid Grid.Row="0" x:Name="DtgOrdersUser" AutoGenerateColumns="False" IsReadOnly="True" GridLinesVisibility="None">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="дата оформления" Width="100*" ElementStyle="{StaticResource CenterAlignedandWrapText}"  Binding="{Binding Order_date, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                <DataGridTextColumn Header="дата приезда" Width="100*" ElementStyle="{StaticResource CenterAlignedandWrapText}"  Binding="{Binding Arrival_date, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnList" Content="Список" Click="btnList_Click" Style="{StaticResource Defaultbtn}"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Цена" Width="70*" ElementStyle="{StaticResource CenterAlignedandWrapText}" Binding="{Binding Price}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>
